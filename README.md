@@ -13,3 +13,10 @@ aws configure
 * AWS Secret Access Key [None]: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 * Default region name [None]: `us-west-2`
 * Default output format [None]: `json`
+
+### Membuat Instance AWS
+Buat atau download file [AWS.sh](https://github.com/rafifauz/AWS-CLI/blob/main/AWS.sh)
+```
+chmod +x [AWS.sh](https://github.com/rafifauz/AWS-CLI/blob/main/AWS.sh)
+./AWS.sh
+```
