@@ -17,6 +17,11 @@ aws configure
 ### Membuat Instance AWS
 Buat atau download file [AWS.sh](https://github.com/rafifauz/AWS-CLI/blob/main/AWS.sh)
 ```
-chmod +x [AWS.sh](https://github.com/rafifauz/AWS-CLI/blob/main/AWS.sh)
+chmod +x AWS.sh
 ./AWS.sh
 ```
+#### Spesifikasi :
+* Image: Ubuntu Server 18.04 LTS SSD Volume Type (64-bit x86)
+* CPU: 1
+* Ram: 1 GiB
+* Storage : 8GiB
