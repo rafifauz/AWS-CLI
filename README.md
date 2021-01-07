@@ -1,9 +1,13 @@
 # AWS-CLI
 
-### Prerequisites
+Sebelum dapat menjalankan bash scrip di atas harus kita harus membuat IAM USER di AWS, sehingga mendapatkan file .CSV (berisi User name, Password,	Access key ID,	Secret access key, dan	Console login link) yang akan digunakan untuk ####aws configure
+masukan  acces_key, secret_key, region, format data
+ 
 
-What things you need to install the software and how to install them
+### Menyimpan User AWS
+
+Jalankan command berikut untuk menyimpan user yang dibuat di AWS
 
 ```
-Give examples
+aws configure
 ```
