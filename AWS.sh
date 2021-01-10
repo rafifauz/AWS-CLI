@@ -9,8 +9,8 @@ aws ec2 describe-instances | grep "PublicIpAddress"| tr -d '"'','| awk '{print $
 var1=$(aws ec2 describe-instances | grep "PublicIpAddress"| tr -d '"'','| awk '{print $2}' |awk 'NR==1')
 #var2=$(aws ec2 describe-instances | grep "PublicIpAddress"| tr -d '"'','| awk '{print $2}' |awk 'NR==2')
 echo -e "\n---------Silahkan jalankan scrip berikun di tab baru ------------"
-echo "sudo ssh -i CilsyAWS.pem ubuntu@ $var1" 
-#echo "sudo ssh -i CilsyAWS.pem ubuntu@ $var2" 
+echo "sudo ssh -i "CilsyAWS.pem" ubuntu@$var1" 
+#echo "sudo ssh -i "CilsyAWS.pem" ubuntu@$var2" 
 
 
 
